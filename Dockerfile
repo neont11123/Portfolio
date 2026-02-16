@@ -1,4 +1,4 @@
-# Gunakan PHP 8.2 + Apache
+# Gunakan PHP 8.2
 FROM php:8.2-apache
 
 # Install system dependencies
@@ -22,11 +22,8 @@ RUN composer install --no-dev --optimize-autoloader
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
-# Expose port 80
+# Expose port (Render assign $PORT dynamically)
 EXPOSE 80
 
-# Set Apache DocumentRoot to public
-RUN sed -i 's|/var/www/html|/var/www/html/public|' /etc/apache2/sites-available/000-default.conf
-
-# Start Apache
-CMD ["apache2-foreground"]
+# Start Laravel built-in server bind to $PORT
+CMD php artisan serve --host=0.0.0.0 --port=$PORT
