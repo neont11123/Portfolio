@@ -11,7 +11,7 @@
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <h2>Portfolio Details</h2>
-    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+    <p>Explore my projects showcasing practical solutions, creative ideas, and technical skills developed through various professional and academic experiences.</p>
   </div><!-- End Section Title -->
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -282,6 +282,9 @@
             <p class="lead">
                 Sport Performance And Dietary Evaluation (S.P.A.D.E) is a mobile application designed to help athletes and fitness enthusiasts track their performance and dietary habits. The app integrates with IoT devices to monitor real-time biometric data, providing users with insights into their training effectiveness and nutritional intake. With features like personalized workout plans, meal tracking, and performance analytics, S.P.A.D.E empowers users to optimize their fitness journey and achieve their health goals.
             </p>
+            <p class="lead">
+                Participated in the 3rd Research in High Performance Sports Colloquium 2024 at Institut Sukan Negara, gaining insights into sports analytics and performance research.
+            </p>
           </div>
 
           <div class="project-features" data-aos="fade-up" data-aos-delay="300">
@@ -291,13 +294,14 @@
                 <ul class="feature-list">
                   <li><i class="bi bi-check2-circle"></i> Real-time Data Visualization</li>
                   <li><i class="bi bi-check2-circle"></i> User Role Management</li>
-                  <li><i class="bi bi-check2-circle"></i> Secure Authentication</li>
+                  <li><i class="bi bi-check2-circle"></i> Authentication</li>
                 </ul>
               </div>
               <div class="col-md-6">
                 <ul class="feature-list">
-                  <li><i class="bi bi-check2-circle"></i> Customizable Dashboards</li>
-                  <li><i class="bi bi-check2-circle"></i> Data Export Options</li>
+                  <li><i class="bi bi-check2-circle"></i> Activity Dashboards</li>
+                  <li><i class="bi bi-check2-circle"></i> Monitoring Athlete Performance</li>
+
                 </ul>
               </div>
             </div>
