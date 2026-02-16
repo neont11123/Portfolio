@@ -1,10 +1,8 @@
-@extends('layouts.app')
+<?php $__env->startSection('title', 'About - FolioOne Bootstrap Template'); ?>
 
-@section('title', 'About - FolioOne Bootstrap Template')
+<?php $__env->startSection('body-class', 'about-page'); ?>
 
-@section('body-class', 'about-page')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <!-- About Section -->
     <section id="about" class="about section">
 
@@ -33,7 +31,7 @@
                 <a href="#portfolio" class="btn-ghost">
                   View My Work <i class="bi bi-arrow-up-right"></i>
                 </a>
-                <a href="{{ asset('pdf/DOC-20251102-WA0019. (3).pdf') }}" class="link-underline" download>
+                <a href="<?php echo e(asset('pdf/DOC-20251102-WA0019. (3).pdf')); ?>" class="link-underline" download>
                   Download Resume <i class="bi bi-download"></i>
                 </a>
               </div>
@@ -42,7 +40,7 @@
 
           <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="250">
             <figure class="profile-figure text-center text-lg-end">
-              <img src="{{ asset('img/profile/awanghilmi.jpg') }}" alt="Portrait of Alex" class="img-fluid profile-photo">
+              <img src="<?php echo e(asset('img/profile/awanghilmi.jpg')); ?>" alt="Portrait of Alex" class="img-fluid profile-photo">
             </figure>
           </div>
         </div>
@@ -159,4 +157,6 @@
       </div>
 
     </section><!-- /About Section -->
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampps\htdocs\Awang\resources\views/about.blade.php ENDPATH**/ ?>

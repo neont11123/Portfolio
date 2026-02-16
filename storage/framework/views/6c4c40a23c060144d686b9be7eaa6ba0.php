@@ -1,9 +1,7 @@
-@extends('layouts.app')
+<?php $__env->startSection('title', 'Portfolio Details - FolioOne'); ?>
+<?php $__env->startSection('body-class', 'portfolio-details-page'); ?>
 
-@section('title', 'Portfolio Details - FolioOne')
-@section('body-class', 'portfolio-details-page')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 <!-- Portfolio Details Section -->
 <section id="portfolio-details" class="portfolio-details section">
@@ -16,8 +14,8 @@
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-    {{-- ---------------- SECTION ID 1 ---------------- --}}
-    @if($id == 1)
+    
+    <?php if($id == 1): ?>
     <div class="row gy-4">
       <div class="col-lg-6" data-aos="fade-right">
         <div class="portfolio-details-media">
@@ -39,13 +37,13 @@
               </script>
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/d1.png') }}" alt="Dashboard" class="img-fluid">
+                  <img src="<?php echo e(asset('img/portfolio/d1.png')); ?>" alt="Dashboard" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/d2.png') }}" alt="Dashboard" class="img-fluid">
+                  <img src="<?php echo e(asset('img/portfolio/d2.png')); ?>" alt="Dashboard" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/ud1.png') }}" alt="Portfolio Image" class="img-fluid">
+                  <img src="<?php echo e(asset('img/portfolio/ud1.png')); ?>" alt="Portfolio Image" class="img-fluid">
                 </div>
               </div>
               <div class="swiper-button-prev"></div>
@@ -56,16 +54,16 @@
           <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
             <div class="row g-2 mt-3">
               <div class="col-3">
-                <img src="{{ asset('img/portfolio/login.png') }}" alt="Login Page" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/login.png')); ?>" alt="Login Page" class="img-fluid glightbox">
               </div>
               <div class="col-3">
-                <img src="{{ asset('img/portfolio/ud2.png') }}" alt="Upload data Page (notification)" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/ud2.png')); ?>" alt="Upload data Page (notification)" class="img-fluid glightbox">
               </div>
               <div class="col-3">
-                <img src="{{ asset('img/portfolio/d3.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/d3.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
               </div>
               <div class="col-3">
-                <img src="{{ asset('img/portfolio/ua1.png') }}" alt="Update Admin Page" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/ua1.png')); ?>" alt="Update Admin Page" class="img-fluid glightbox">
               </div>
             </div>
           </div>
@@ -182,13 +180,13 @@
         </div>
       </div>
     </div>
-    @endif
-    {{-- ---------------- END SECTION ID 1 ---------------- --}}
+    <?php endif; ?>
+    
 
-    {{-- ---------------- SECTION ID 2 (DUPLICATE SECTION) ---------------- --}}
-    @if($id == 2)
+    
+    <?php if($id == 2): ?>
     <div class="row gy-4">
-      {{-- Duplicate semua HTML dari atas Section ID 1 --}}
+      
       <div class="col-lg-6" data-aos="fade-right">
         <div class="portfolio-details-media">
           <div class="main-image">
@@ -209,13 +207,13 @@
               </script>
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/4.png') }}" alt="Portfolio Image" class="img-fluid">
+                  <img src="<?php echo e(asset('img/portfolio/4.png')); ?>" alt="Portfolio Image" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/2.png') }}" alt="Portfolio Image" class="img-fluid">
+                  <img src="<?php echo e(asset('img/portfolio/2.png')); ?>" alt="Portfolio Image" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/3.png') }}" alt="Portfolio Image" class="img-fluid">
+                  <img src="<?php echo e(asset('img/portfolio/3.png')); ?>" alt="Portfolio Image" class="img-fluid">
                 </div>
               </div>
               <div class="swiper-button-prev"></div>
@@ -226,16 +224,16 @@
           <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
             <div class="row g-2 mt-3">
               <div class="col-3">
-                <img src="{{ asset('img/portfolio/MQTT.png') }}" alt="Flowgorithm" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/MQTT.png')); ?>" alt="Flowgorithm" class="img-fluid glightbox">
               </div>
               <div class="col-3">
-                <img src="{{ asset('img/portfolio/5.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/5.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
               </div>
               <div class="col-3">
-                <img src="{{ asset('img/portfolio/3.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/3.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
               </div>
               <div class="col-3">
-                <img src="{{ asset('img/portfolio/2.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/2.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
               </div>
             </div>
           </div>
@@ -307,13 +305,13 @@
         </div>
       </div>
     </div>
-    @endif
-    {{-- ---------------- END SECTION ID 2 ---------------- --}}
+    <?php endif; ?>
+    
 
-    {{-- ---------------- SECTION ID 3 (DUPLICATE SECTION) ---------------- --}}
-    @if($id == 3)
+    
+    <?php if($id == 3): ?>
     <div class="row gy-4">
-      {{-- Duplicate semua HTML dari atas Section ID 1 --}}
+      
       <div class="col-lg-6" data-aos="fade-right">
         <div class="portfolio-details-media">
           <div class="main-image">
@@ -334,13 +332,13 @@
               </script>
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/i2.png') }}" alt="Portfolio Image" class="img-fluid">
+                  <img src="<?php echo e(asset('img/portfolio/i2.png')); ?>" alt="Portfolio Image" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/i3.png') }}" alt="Portfolio Image" class="img-fluid">
+                  <img src="<?php echo e(asset('img/portfolio/i3.png')); ?>" alt="Portfolio Image" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/i4.png') }}" alt="Portfolio Image" class="img-fluid">
+                  <img src="<?php echo e(asset('img/portfolio/i4.png')); ?>" alt="Portfolio Image" class="img-fluid">
                 </div>
               </div>
               <div class="swiper-button-prev"></div>
@@ -351,28 +349,28 @@
           <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
             <div class="row g-2 mt-3">
                 <div class="col-3">
-                <img src="{{ asset('img/portfolio/i5.png') }}" alt="Flowgorithm" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i5.png')); ?>" alt="Flowgorithm" class="img-fluid glightbox">
                 </div>
                 <div class="col-3">
-                <img src="{{ asset('img/portfolio/i6.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i6.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
                 <div class="col-3">
-                <img src="{{ asset('img/portfolio/i7.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i7.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
                 <div class="col-3">
-                <img src="{{ asset('img/portfolio/i8.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i8.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
                 <div class="col-3">
-                <img src="{{ asset('img/portfolio/i9.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i9.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
                 <div class="col-3">
-                <img src="{{ asset('img/portfolio/i10.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i10.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
                 <div class="col-3">
-                <img src="{{ asset('img/portfolio/i11.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i11.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
                 <div class="col-3">
-                <img src="{{ asset('img/portfolio/i12.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i12.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
             </div>
         </div>
@@ -444,11 +442,13 @@
         </div>
       </div>
     </div>
-    @endif
-    {{-- ---------------- END SECTION ID 2 ---------------- --}}
+    <?php endif; ?>
+    
 
   </div>
 
 </section><!-- /Portfolio Details Section -->
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampps\htdocs\Awang\resources\views/portfolio-details.blade.php ENDPATH**/ ?>

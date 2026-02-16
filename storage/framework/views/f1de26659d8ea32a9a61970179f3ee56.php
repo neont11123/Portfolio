@@ -1,7 +1,6 @@
-@extends('layouts.app')
-@section('title', 'Resume - FolioOne')
-@section('body-class', 'resume-page')
-@section('content')
+<?php $__env->startSection('title', 'Resume - FolioOne'); ?>
+<?php $__env->startSection('body-class', 'resume-page'); ?>
+<?php $__env->startSection('content'); ?>
    <!-- Resume Section -->
     <section id="resume" class="resume section">
 
@@ -131,4 +130,6 @@
       </div>
 
     </section>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampps\htdocs\Awang\resources\views/resume.blade.php ENDPATH**/ ?>

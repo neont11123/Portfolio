@@ -1,7 +1,6 @@
-@extends('layouts.app')
-@section('title', 'Portfolio - FolioOne')
-@section('body-class', 'portfolio-page')
-@section('content')
+<?php $__env->startSection('title', 'Portfolio - FolioOne'); ?>
+<?php $__env->startSection('body-class', 'portfolio-page'); ?>
+<?php $__env->startSection('content'); ?>
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
@@ -30,7 +29,7 @@
                   <img src="img/portfolio/f1.png" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
                     <a href="img/portfolio/f1.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="{{ url('/portfolio-details/1') }}" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="<?php echo e(url('/portfolio-details/1')); ?>" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
@@ -51,7 +50,7 @@
                   <img src="img/portfolio/mainapp.png" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
                     <a href="img/portfolio/mainapp.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="{{ url('/portfolio-details/2') }}" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="<?php echo e(url('/portfolio-details/2')); ?>" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
@@ -71,7 +70,7 @@
                   <img src="img/portfolio/i1.png" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
                     <a href="img/portfolio/i1.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="{{ url('/portfolio-details/3') }}" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="<?php echo e(url('/portfolio-details/3')); ?>" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
@@ -92,7 +91,7 @@
                   <img src="img/portfolio/portfolio-4.webp" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
                     <a href="img/portfolio/portfolio-4.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="{{ url('/portfolio-details/4') }}" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="<?php echo e(url('/portfolio-details/4')); ?>" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
@@ -112,7 +111,7 @@
                   <img src="img/portfolio/portfolio-5.webp" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
                     <a href="img/portfolio/portfolio-5.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="{{ url('/portfolio-details/5') }}" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="<?php echo e(url('/portfolio-details/5')); ?>" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
@@ -132,7 +131,7 @@
                   <img src="img/portfolio/portfolio-6.webp" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
                     <a href="img/portfolio/portfolio-6.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="{{ url('/portfolio-details/6') }}" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="<?php echo e(url('/portfolio-details/6')); ?>" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
@@ -150,10 +149,12 @@
         </div>
 
         <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="400">
-          <a href="{{ url('/portfolio-details/7') }}portfolio" class="btn btn-primary">View All Case Studies</a>
+          <a href="<?php echo e(url('/portfolio-details/7')); ?>portfolio" class="btn btn-primary">View All Case Studies</a>
         </div>
 
       </div>
 
     </section><!-- /Portfolio Section -->
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampps\htdocs\Awang\resources\views/portfolio.blade.php ENDPATH**/ ?>
