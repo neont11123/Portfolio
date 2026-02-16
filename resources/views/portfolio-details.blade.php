@@ -501,10 +501,10 @@
           <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
             <div class="row g-2 mt-3">
                 <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="{{ asset('img/portfolio/poster.png') }}" alt="Flowgorithm" class="img-fluid glightbox">
+                <img src="{{ asset('img/portfolio/poster.png') }}" alt="Poster Final Year Project" class="img-fluid glightbox">
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="{{ asset('img/portfolio/gold.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="{{ asset('img/portfolio/gold.png') }}" alt="Gold Award Final Year Project" class="img-fluid glightbox">
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="{{ asset('img/portfolio/a1.png') }}" alt="Gallery Image" class="img-fluid glightbox">
