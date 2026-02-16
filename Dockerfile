@@ -19,14 +19,6 @@ COPY . .
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 RUN composer install --no-dev --optimize-autoloader
 
-# Clear & cache config, routes, views
-RUN php artisan config:clear
-RUN php artisan route:clear
-RUN php artisan view:clear
-RUN php artisan config:cache
-RUN php artisan route:cache
-RUN php artisan view:cache
-
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
