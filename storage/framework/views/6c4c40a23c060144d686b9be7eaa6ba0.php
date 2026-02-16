@@ -207,6 +207,9 @@
               </script>
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
+                  <img src="<?php echo e(asset('img/portfolio/uniszar.png')); ?>" alt="Portfolio Image" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
                   <img src="<?php echo e(asset('img/portfolio/4.png')); ?>" alt="Portfolio Image" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
