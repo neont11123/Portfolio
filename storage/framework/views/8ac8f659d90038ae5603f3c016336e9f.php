@@ -88,9 +88,9 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-technology">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="img/portfolio/portfolio-4.webp" alt="Portfolio Item" class="img-fluid">
+                  <img src="img/portfolio/posters.png" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
-                    <a href="img/portfolio/portfolio-4.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="img/portfolio/posters.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="<?php echo e(url('/portfolio-details/4')); ?>" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>

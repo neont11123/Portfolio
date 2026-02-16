@@ -53,16 +53,16 @@
 
           <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
             <div class="row g-2 mt-3">
-              <div class="col-3">
+              <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/login.png')); ?>" alt="Login Page" class="img-fluid glightbox">
               </div>
-              <div class="col-3">
+              <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/ud2.png')); ?>" alt="Upload data Page (notification)" class="img-fluid glightbox">
               </div>
-              <div class="col-3">
+              <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/d3.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
               </div>
-              <div class="col-3">
+              <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/ua1.png')); ?>" alt="Update Admin Page" class="img-fluid glightbox">
               </div>
             </div>
@@ -226,16 +226,16 @@
 
           <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
             <div class="row g-2 mt-3">
-              <div class="col-3">
+              <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/MQTT.png')); ?>" alt="Flowgorithm" class="img-fluid glightbox">
               </div>
-              <div class="col-3">
+              <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/5.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
               </div>
-              <div class="col-3">
+              <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/3.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
               </div>
-              <div class="col-3">
+              <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/2.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
               </div>
             </div>
@@ -355,28 +355,28 @@
 
           <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
             <div class="row g-2 mt-3">
-                <div class="col-3">
+                <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/i5.png')); ?>" alt="Flowgorithm" class="img-fluid glightbox">
                 </div>
-                <div class="col-3">
+                <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/i6.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
-                <div class="col-3">
+                <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/i7.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
-                <div class="col-3">
+                <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/i8.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
-                <div class="col-3">
+                <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/i9.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
-                <div class="col-3">
+                <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/i10.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
-                <div class="col-3">
+                <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/i11.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
-                <div class="col-3">
+                <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/i12.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
             </div>
@@ -479,10 +479,16 @@
                   <img src="<?php echo e(asset('img/portfolio/posters.png')); ?>" alt="Portfolio Image" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                  <img src="<?php echo e(asset('img/portfolio/i3.png')); ?>" alt="Portfolio Image" class="img-fluid">
+                  <img src="<?php echo e(asset('img/portfolio/gold2.png')); ?>" alt="Portfolio Image" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                  <img src="<?php echo e(asset('img/portfolio/i4.png')); ?>" alt="Portfolio Image" class="img-fluid">
+                  <img src="<?php echo e(asset('img/portfolio/a1.png')); ?>" alt="Portfolio Image" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="<?php echo e(asset('img/portfolio/a2.png')); ?>" alt="Portfolio Image" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="<?php echo e(asset('img/portfolio/a3.png')); ?>" alt="Portfolio Image" class="img-fluid">
                 </div>
               </div>
               <div class="swiper-button-prev"></div>
@@ -492,29 +498,20 @@
 
           <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
             <div class="row g-2 mt-3">
-                <div class="col-3">
+                <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/poster.png')); ?>" alt="Flowgorithm" class="img-fluid glightbox">
                 </div>
-                <div class="col-3">
-                <img src="<?php echo e(asset('img/portfolio/i6.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <div class="col-3 d-flex justify-content-center align-items-center">
+                <img src="<?php echo e(asset('img/portfolio/gold.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
-                <div class="col-3">
-                <img src="<?php echo e(asset('img/portfolio/i7.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <div class="col-3 d-flex justify-content-center align-items-center">
+                <img src="<?php echo e(asset('img/portfolio/a1.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
-                <div class="col-3">
-                <img src="<?php echo e(asset('img/portfolio/i8.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <div class="col-3 d-flex justify-content-center align-items-center">
+                <img src="<?php echo e(asset('img/portfolio/a2.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
-                <div class="col-3">
-                <img src="<?php echo e(asset('img/portfolio/i9.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
-                </div>
-                <div class="col-3">
-                <img src="<?php echo e(asset('img/portfolio/i10.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
-                </div>
-                <div class="col-3">
-                <img src="<?php echo e(asset('img/portfolio/i11.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
-                </div>
-                <div class="col-3">
-                <img src="<?php echo e(asset('img/portfolio/i12.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <div class="col-3 d-flex justify-content-center align-items-center">
+                <img src="<?php echo e(asset('img/portfolio/a3.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
                 </div>
             </div>
         </div>
