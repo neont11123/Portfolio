@@ -9,7 +9,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        <p>Explore my projects showcasing practical solutions, creative ideas, and technical skills developed through various professional and academic experiences.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -89,9 +89,9 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-technology">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="img/portfolio/portfolio-4.webp" alt="Portfolio Item" class="img-fluid">
+                  <img src="img/portfolio/posters.png" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
-                    <a href="img/portfolio/portfolio-4.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="img/portfolio/posters.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="{{ url('/portfolio-details/4') }}" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>

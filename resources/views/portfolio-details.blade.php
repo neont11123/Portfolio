@@ -452,7 +452,145 @@
       </div>
     </div>
     @endif
+    {{-- ---------------- END SECTION ID 3 ---------------- --}}
+
+    {{-- ---------------- SECTION ID 4 (DUPLICATE SECTION) ---------------- --}}
+    @if($id == 4)
+    <div class="row gy-4">
+      {{-- Duplicate semua HTML dari atas Section ID 1 --}}
+      <div class="col-lg-6" data-aos="fade-right">
+        <div class="portfolio-details-media">
+          <div class="main-image">
+            <div class="portfolio-details-slider swiper init-swiper" data-aos="zoom-in">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 1000,
+                  "autoplay": { "delay": 6000 },
+                  "effect": "creative",
+                  "creativeEffect": {
+                    "prev": { "shadow": true, "translate": [0,0,-400] },
+                    "next": { "translate": ["100%",0,0] }
+                  },
+                  "slidesPerView": 1,
+                  "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="{{ asset('img/portfolio/posters.png') }}" alt="Portfolio Image" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="{{ asset('img/portfolio/i3.png') }}" alt="Portfolio Image" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="{{ asset('img/portfolio/i4.png') }}" alt="Portfolio Image" class="img-fluid">
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+
+          <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
+            <div class="row g-2 mt-3">
+                <div class="col-3">
+                <img src="{{ asset('img/portfolio/poster.png') }}" alt="Flowgorithm" class="img-fluid glightbox">
+                </div>
+                <div class="col-3">
+                <img src="{{ asset('img/portfolio/i6.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                </div>
+                <div class="col-3">
+                <img src="{{ asset('img/portfolio/i7.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                </div>
+                <div class="col-3">
+                <img src="{{ asset('img/portfolio/i8.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                </div>
+                <div class="col-3">
+                <img src="{{ asset('img/portfolio/i9.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                </div>
+                <div class="col-3">
+                <img src="{{ asset('img/portfolio/i10.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                </div>
+                <div class="col-3">
+                <img src="{{ asset('img/portfolio/i11.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                </div>
+                <div class="col-3">
+                <img src="{{ asset('img/portfolio/i12.png') }}" alt="Gallery Image" class="img-fluid glightbox">
+                </div>
+            </div>
+        </div>
+
+          <div class="tech-stack-badges" data-aos="fade-up" data-aos-delay="300">
+            <span>Ionic</span>
+            <span>Angular</span>
+            <span>Firebase</span>
+            <span>IOS</span>
+            <span>Android</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <div-- class="portfolio-details-content">
+          <div class="project-meta">
+            <div class="badge-wrapper">
+              <span class="project-badge">Android & IoT</span>
+            </div>
+            <div class="date-client">
+              <div class="meta-item">
+                <i class="bi bi-calendar-check"></i>
+                <span>December 2024</span>
+              </div>
+              <div class="meta-item">
+                <i class="bi bi-buildings"></i>
+                <span>UniSZA</span>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="project-title">My Deen List</h2>
+
+          <!--div class="project-website">
+            <i class="bi bi-link-45deg"></i>
+            <a href="#" target="_blank">projectwebsite.example.com</a>
+          </div-->
+
+          <div class="project-overview">
+            <p class="lead">
+                My Deen List is a mobile application designed to help users track their daily religious activities and habits. The app allows users to set goals, log their daily prayers, Quran recitations, and other religious practices. With features like progress tracking, reminders, and motivational messages, My Deen List helps users maintain consistency in their spiritual journey.
+            </p>
+          </div>
+
+          <div class="project-features" data-aos="fade-up" data-aos-delay="300">
+            <h3><i class="bi bi-stars"></i> Key Features</h3>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <ul class="feature-list">
+                <li><i class="bi bi-check2-circle"></i>Progress tracking</li>
+                <li><i class="bi bi-check2-circle"></i> Set daily goals for prayers and Quran recitations</li>
+                <li><i class="bi bi-check2-circle"></i> Log and track daily religious activities</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="feature-list">
+                <li><i class="bi bi-check2-circle"></i>Notifications Reminder to encourage consistency</li>
+                <li><i class="bi bi-check2-circle"></i> Colorful and kid-friendly dashboards</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
+            <a href="#" class="btn-view-project">View Live Project</a>
+            <a href="#" class="btn-next-project">Next Project <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    @endif
     {{-- ---------------- END SECTION ID 2 ---------------- --}}
+
 
   </div>
 
