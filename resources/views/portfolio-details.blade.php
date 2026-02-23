@@ -1,8 +1,6 @@
 @extends('layouts.app')
-
 @section('title', 'Portfolio Details - FolioOne')
 @section('body-class', 'portfolio-details-page')
-
 @section('content')
 
 <!-- Portfolio Details Section -->

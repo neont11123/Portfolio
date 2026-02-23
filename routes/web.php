@@ -25,12 +25,15 @@ Route::get('/portfolio', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
 Route::get('/portfolio-details/{id}', function ($id) {
     return view('portfolio-details', ['id' => $id]);
 });
+
 Route::get('/services', function () {
     return view('services');
 })->name('services');
+
 Route::get('/services/{service}', function ($service) {
     return view('service-details', ['service' => $service]);
 })->name('service.details');

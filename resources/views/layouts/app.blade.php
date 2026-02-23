@@ -40,35 +40,33 @@
           <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a></li>
           <li><a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">About</a></li>
           <li><a href="{{ route('resume') }}" class="{{ request()->routeIs('resume') ? 'active' : '' }}">Resume</a></li>
-          <li><a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'active' : '' }}">Services</a></li>
+          <!-- li><a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'active' : '' }}">Services</a></!-->
           <li><a href="{{ route('portfolio') }}" class="{{ request()->routeIs('portfolio') ? 'active' : '' }}">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#"><span>Social Media</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
+              <!-- li><a href="#">Dropdown 1</a></!-->
+
+
               </li>
-              <li><a href="#">Dropdown 2</a></li>
+                <li><a href="https://www.tiktok.com/@awanghilmi?_r=1&_t=ZS-949I9twluJF">TikTok</a></li>
+                <li><a href="https://www.instagram.com/awangemy?igsh=cDBxc2YzZGo2OXdl">Instagram</a></li>
+                <li><a href="https://www.facebook.com/share/1CLBqu89pY/">Facebook</a></li>
+                <li><a href="https://wa.me/qr/NHFY5B3BHCTVB1">WhatsApp</a></li>
+              <!-- li><a href="#">Dropdown 2</a>
               <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="#">Dropdown 4</a></li></!-->
             </ul>
           </li>
-          <li><a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">Contact</a></li>
+          <!-- li><a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">Contact</a></!-->
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.tiktok.com/@awanghilmi?_r=1&_t=ZS-949I9twluJF" class="tiktok"><i class="bi bi-tiktok"></i></a>
+        <a href="https://www.instagram.com/awangemy?igsh=cDBxc2YzZGo2OXdl" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1CLBqu89pY/" class="facebook"><i class="bi bi-facebook"></i></a>
+
       </div>
 
     </div>
@@ -81,18 +79,18 @@
   <footer id="footer" class="footer">
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">FolioOne</strong> <span>All Rights Reserved<br></span></p>
+        <p><span>Portfolio</span> <!-- strong class="px-1 sitename">FolioOne</!--> <span>Awang Hilmi<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.tiktok.com/@awanghilmi?_r=1&_t=ZS-949I9twluJF" class="tiktok"><i class="bi bi-tiktok"></i></a>
+        <a href="https://www.instagram.com/awangemy?igsh=cDBxc2YzZGo2OXdl" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1CLBqu89pY/" class="facebook"><i class="bi bi-facebook"></i></a>
+
       </div>
-      <div class="credits">
+      <!--div class="credits">
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
+      </!--div>
+    </div-->
   </footer>
 
   <!-- Scroll Top -->
