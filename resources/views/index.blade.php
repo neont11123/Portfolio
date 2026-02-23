@@ -19,10 +19,10 @@
                 <a href="https://wa.me/qr/NHFY5B3BHCTVB1" class="btn btn-outline">Get In Touch</a>
               </div>
               <div class="social-links" data-aos="fade-up" data-aos-delay="600">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-                <a href="#"><i class="bi bi-github"></i></a>
-                <a href="#"><i class="bi bi-dribbble"></i></a>
+                <a href="https://www.tiktok.com/@awanghilmi?_r=1&_t=ZS-949I9twluJF"><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.instagram.com/awangemy?igsh=cDBxc2YzZGo2OXdl" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/share/1CLBqu89pY/" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://wa.me/qr/NHFY5B3BHCTVB1" class="Whatsapp"><i class="bi bi-whatsapp"></i></a>
               </div>
             </div>
           </div>

@@ -35,17 +35,45 @@
                   "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }
                 }
               </script>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/d1.png') }}" alt="Dashboard" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/d2.png') }}" alt="Dashboard" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/ud1.png') }}" alt="Portfolio Image" class="img-fluid">
-                </div>
-              </div>
+<div class="swiper-wrapper">
+
+  <div class="swiper-slide">
+    <a href="{{ asset('img/portfolio/d1.png') }}"
+       class="glightbox"
+       data-gallery="portfolio-gallery">
+
+      <img src="{{ asset('img/portfolio/d1.png') }}"
+           alt="Dashboard"
+           class="img-fluid">
+
+    </a>
+  </div>
+
+  <div class="swiper-slide">
+    <a href="{{ asset('img/portfolio/d2.png') }}"
+       class="glightbox"
+       data-gallery="portfolio-gallery">
+
+      <img src="{{ asset('img/portfolio/d2.png') }}"
+           alt="Dashboard"
+           class="img-fluid">
+
+    </a>
+  </div>
+
+  <div class="swiper-slide">
+    <a href="{{ asset('img/portfolio/ud1.png') }}"
+       class="glightbox"
+       data-gallery="portfolio-gallery">
+
+      <img src="{{ asset('img/portfolio/ud1.png') }}"
+           alt="Portfolio Image"
+           class="img-fluid">
+
+    </a>
+  </div>
+
+</div>
               <div class="swiper-button-prev"></div>
               <div class="swiper-button-next"></div>
             </div>
@@ -97,10 +125,12 @@
 
           <h2 class="project-title">Innovative Traffic Dashboard Web Based</h2>
 
-          <div class="project-website">
-            <i class="bi bi-link-45deg"></i>
-            <a href="#" target="_blank">sde22-dashboard.onrender.com</a>
-          </div>
+        <div class="project-website">
+        <i class="bi bi-link-45deg"></i>
+        <a href="https://sde22-dashboard.onrender.com" target="_blank" rel="noopener noreferrer">
+            sde22-dashboard.onrender.com
+        </a>
+        </div>
 
           <div class="project-overview">
             <p class="lead">
@@ -174,8 +204,10 @@
           </div>
 
           <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
-            <a href="#" class="btn-view-project">View Live Project</a>
-            <a href="#" class="btn-next-project">Next Project <i class="bi bi-arrow-right"></i></a>
+            <!-- a href="#" class="btn-view-project">View Live Project</a-->
+            <a href="{{ url('portfolio-details/' . ($id + 1)) }}" class="btn-view-project">
+  Next Project <i class="bi bi-arrow-right"></i>
+</a>
           </div>
         </div>
       </div>
@@ -205,20 +237,57 @@
                   "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }
                 }
               </script>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/uniszar.png') }}" alt="Portfolio Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/4.png') }}" alt="Portfolio Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/2.png') }}" alt="Portfolio Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="{{ asset('img/portfolio/3.png') }}" alt="Portfolio Image" class="img-fluid">
-                </div>
-              </div>
+<div class="swiper-wrapper">
+
+  <div class="swiper-slide">
+    <a href="{{ asset('img/portfolio/uniszar.png') }}"
+       class="glightbox"
+       data-gallery="portfolio-gallery-2">
+
+      <img src="{{ asset('img/portfolio/uniszar.png') }}"
+           alt="Unisza Team"
+           class="img-fluid">
+
+    </a>
+  </div>
+
+  <div class="swiper-slide">
+    <a href="{{ asset('img/portfolio/4.png') }}"
+       class="glightbox"
+       data-gallery="portfolio-gallery-2">
+
+      <img src="{{ asset('img/portfolio/4.png') }}"
+           alt="Home Page"
+           class="img-fluid">
+
+    </a>
+  </div>
+
+  <div class="swiper-slide">
+    <a href="{{ asset('img/portfolio/2.png') }}"
+       class="glightbox"
+       data-gallery="portfolio-gallery-2">
+
+      <img src="{{ asset('img/portfolio/2.png') }}"
+           alt="BMI page"
+           class="img-fluid">
+
+    </a>
+  </div>
+
+  <div class="swiper-slide">
+    <a href="{{ asset('img/portfolio/3.png') }}"
+       class="glightbox"
+       data-gallery="portfolio-gallery-2">
+
+      <img src="{{ asset('img/portfolio/3.png') }}"
+           alt="Performance monitoring page"
+           class="img-fluid">
+
+    </a>
+  </div>
+
+</div>
               <div class="swiper-button-prev"></div>
               <div class="swiper-button-next"></div>
             </div>
@@ -306,8 +375,10 @@
           </div>
 
           <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
-            <a href="#" class="btn-view-project">View Live Project</a>
-            <a href="#" class="btn-next-project">Next Project <i class="bi bi-arrow-right"></i></a>
+            <!-- a href="#" class="btn-view-project">View Live Project</a-->
+            <a href="{{ url('portfolio-details/' . ($id + 1)) }}" class="btn-view-project">
+  Next Project <i class="bi bi-arrow-right"></i>
+</a>
           </div>
         </div>
       </div>
@@ -443,14 +514,16 @@
           </div>
 
           <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
-            <a href="#" class="btn-view-project">View Live Project</a>
-            <a href="#" class="btn-next-project">Next Project <i class="bi bi-arrow-right"></i></a>
+            <!-- a href="#" class="btn-view-project">View Live Project</a-->
+            <a href="{{ url('portfolio-details/' . ($id + 1)) }}" class="btn-view-project">
+  Next Project <i class="bi bi-arrow-right"></i>
+</a>
           </div>
         </div>
       </div>
     </div>
     @endif
-    {{-- ---------------- END SECTION ID 3 ---------------- --}}
+    {{-- ---------------- END SECTION ID 3 btn-next-project---------------- --}}
 
     {{-- ---------------- SECTION ID 4 (DUPLICATE SECTION) ---------------- --}}
     @if($id == 4)
@@ -577,8 +650,10 @@
           </div>
 
           <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
-            <a href="#" class="btn-view-project">View Live Project</a>
-            <a href="#" class="btn-next-project">Next Project <i class="bi bi-arrow-right"></i></a>
+            <!-- a href="#" class="btn-view-project">View Live Project</a-->
+            <a href="{{ url('portfolio-details/1') }}" class="btn-view-project">
+  Next Project <i class="bi bi-arrow-right"></i>
+</a>
           </div>
         </div>
       </div>
