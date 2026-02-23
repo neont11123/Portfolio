@@ -1,4 +1,4 @@
-<?php $__env->startSection('title', 'Portfolio - FolioOne'); ?>
+<?php $__env->startSection('title', 'Portfolio - Awang'); ?>
 <?php $__env->startSection('body-class', 'portfolio-page'); ?>
 <?php $__env->startSection('content'); ?>
 

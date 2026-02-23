@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Contact - FolioOne')
+@section('title', 'Contact - Awang')
 @section('body-class', 'contact-page')
 @section('content')
 <div class="container py-5">

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About - FolioOne Bootstrap Template')
+@section('title', 'About - Awang Bootstrap Template')
 
 @section('body-class', 'about-page')
 
@@ -30,11 +30,11 @@
               </p>
 
               <div class="cta-group">
-                <a href="#portfolio" class="btn-ghost">
-                  View My Work <i class="bi bi-arrow-up-right"></i>
+                <a href="{{ url('/resume') }}" class="btn-ghost">
+                  Digital Resume <i class="bi bi-arrow-up-right"></i>
                 </a>
                 <a href="{{ asset('pdf/DOC-20251102-WA0019. (3).pdf') }}" class="link-underline" download>
-                  Download Resume <i class="bi bi-download"></i>
+                  Download Physical Resume <i class="bi bi-download"></i>
                 </a>
               </div>
             </div>

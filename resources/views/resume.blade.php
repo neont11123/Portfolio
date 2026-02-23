@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Resume - FolioOne')
+@section('title', 'Resume - Awang')
 @section('body-class', 'resume-page')
 @section('content')
    <!-- Resume Section -->
@@ -32,6 +32,37 @@
                   <h4>Bachelor of Computer Science (Computer Internet)</h4>
                   <h5>2021 - 2025</h5>
                   <p class="institution"><em>University Sultan Zainal Abidin</em></p>
+                 <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
+                </article>
+              </div>
+            </div><!-- End Education Section -->
+
+            <!-- Education Section -->
+            <div class="resume-item" data-aos="fade-up">
+              <h3 class="resume-title">Contact</h3>
+
+              <div class="resume-content">
+                <article class="education-item">
+                  <h4>Phone</h4>
+                  <!-- h5>+60 18-975 1748</!-->
+                  <p class="institution"><em>+60 18-975 1748</em></p>
+                  <!-- p class="institution"><em>SMK Tasek Utara</em></!-->
+                 <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
+                </article>
+
+                <article class="education-item">
+                  <h4>Email</h4>
+                  <!-- h5>awanghilmi@gmail.com</!-->
+                  <p class="institution"><em>awanghilmi@gmail.com</em></p>
+                  <!-- p class="institution"><em>University Sultan Zainal Abidin</em></!-->
+                 <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
+                </article>
+
+                <article class="education-item">
+                  <h4>Address</h4>
+                  <!-- h5>15 Jalan Bunga Mawar Lorong 1 Majidee baru</!-->
+                    <p class="institution"><em>No 15 Jalan Bunga Mawar Lorong 1 Majidee baru</em></p>
+                  <!-- p class="institution"><em>University Sultan Zainal Abidin</em></!-->
                  <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
                 </article>
               </div>

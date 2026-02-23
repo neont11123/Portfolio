@@ -1,4 +1,4 @@
-<?php $__env->startSection('title', 'Home - FolioOne Bootstrap Template'); ?>
+<?php $__env->startSection('title', 'Home - Awang Hilmi Portfolio'); ?>
 
 <?php $__env->startSection('content'); ?>
     <!-- Hero Section -->

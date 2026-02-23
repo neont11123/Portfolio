@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Portfolio Details - FolioOne')
+@section('title', 'Portfolio Details - Awang')
 @section('body-class', 'portfolio-details-page')
 @section('content')
 

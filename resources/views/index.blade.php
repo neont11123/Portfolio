@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Home - FolioOne Bootstrap Template')
+@section('title', 'Home - Awang Hilmi Portfolio')
 
 @section('content')
     <!-- Hero Section -->

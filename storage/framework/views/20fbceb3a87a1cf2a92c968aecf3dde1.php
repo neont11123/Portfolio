@@ -1,4 +1,4 @@
-<?php $__env->startSection('title', 'About - FolioOne Bootstrap Template'); ?>
+<?php $__env->startSection('title', 'About - Awang Bootstrap Template'); ?>
 
 <?php $__env->startSection('body-class', 'about-page'); ?>
 
@@ -28,11 +28,11 @@
               </p>
 
               <div class="cta-group">
-                <a href="#portfolio" class="btn-ghost">
-                  View My Work <i class="bi bi-arrow-up-right"></i>
+                <a href="<?php echo e(url('/resume')); ?>" class="btn-ghost">
+                  Digital Resume <i class="bi bi-arrow-up-right"></i>
                 </a>
                 <a href="<?php echo e(asset('pdf/DOC-20251102-WA0019. (3).pdf')); ?>" class="link-underline" download>
-                  Download Resume <i class="bi bi-download"></i>
+                  Download Physical Resume <i class="bi bi-download"></i>
                 </a>
               </div>
             </div>
