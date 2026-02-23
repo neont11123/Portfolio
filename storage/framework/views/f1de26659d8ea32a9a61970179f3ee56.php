@@ -101,6 +101,25 @@
                 </div>
               </div>
             </div><!-- End Professional Skills Section -->
+
+            <!-- Education Section -->
+            <div class="resume-item" data-aos="fade-up">
+              <h3 class="resume-title">Language</h3>
+
+              <div class="resume-content">
+                <article class="education-item">
+                  <h4>English</h4>
+
+                 <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
+                </article>
+
+                <article class="education-item">
+                  <h4>Bahasa Malaysia</h4>
+
+                 <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
+                </article>
+              </div>
+            </div><!-- End Education Section -->
           </div>
 
           <div class="col-lg-6">
