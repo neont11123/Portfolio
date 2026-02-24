@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About - Awang Bootstrap Template')
+@section('title', 'About - Awang)
 
 @section('body-class', 'about-page')
 
