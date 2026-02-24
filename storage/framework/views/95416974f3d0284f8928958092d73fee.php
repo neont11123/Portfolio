@@ -39,9 +39,11 @@
         <ul>
           <li><a href="<?php echo e(route('home')); ?>" class="<?php echo e(request()->routeIs('home') ? 'active' : ''); ?>">Home</a></li>
           <li><a href="<?php echo e(route('about')); ?>" class="<?php echo e(request()->routeIs('about') ? 'active' : ''); ?>">About</a></li>
+          <li><a href="<?php echo e(route('skills')); ?>" class="<?php echo e(request()->routeIs('skills') ? 'active' : ''); ?>">Skills</a></li>
+          <li><a href="<?php echo e(route('portfolio')); ?>" class="<?php echo e(request()->routeIs('portfolio') ? 'active' : ''); ?>">Projects</a></li>
           <li><a href="<?php echo e(route('resume')); ?>" class="<?php echo e(request()->routeIs('resume') ? 'active' : ''); ?>">Resume</a></li>
-          <!-- li><a href="<?php echo e(route('services')); ?>" class="<?php echo e(request()->routeIs('services') ? 'active' : ''); ?>">Services</a></!-->
-          <li><a href="<?php echo e(route('portfolio')); ?>" class="<?php echo e(request()->routeIs('portfolio') ? 'active' : ''); ?>">Portfolio</a></li>
+          <li><a href="<?php echo e(route('contact')); ?>" class="<?php echo e(request()->routeIs('contact') ? 'active' : ''); ?>">Contact</a></li>
+
           <li class="dropdown"><a href="#"><span>Social Media</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <!-- li><a href="#">Dropdown 1</a></!-->
@@ -57,7 +59,6 @@
               <li><a href="#">Dropdown 4</a></li></!-->
             </ul>
           </li>
-          <!-- li><a href="<?php echo e(route('contact')); ?>" class="<?php echo e(request()->routeIs('contact') ? 'active' : ''); ?>">Contact</a></!-->
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>

@@ -14,10 +14,6 @@ Route::get('/resume', function () {
     return view('resume');
 })->name('resume');
 
-Route::get('/services', function () {
-    return view('services');
-})->name('services');
-
 Route::get('/portfolio', function () {
     return view('portfolio');
 })->name('portfolio');
@@ -30,9 +26,9 @@ Route::get('/portfolio-details/{id}', function ($id) {
     return view('portfolio-details', ['id' => $id]);
 });
 
-Route::get('/services', function () {
-    return view('services');
-})->name('services');
+Route::get('/skills', function () {
+    return view('skills');
+})->name('skills');
 
 Route::get('/services/{service}', function ($service) {
     return view('service-details', ['service' => $service]);
