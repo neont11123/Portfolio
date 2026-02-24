@@ -1,4 +1,4 @@
-<?php $__env->startSection('title', 'About - Awang Bootstrap Template'); ?>
+<?php $__env->startSection('title', 'About - Awang'); ?>
 
 <?php $__env->startSection('body-class', 'about-page'); ?>
 
