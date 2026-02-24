@@ -79,7 +79,10 @@
   <footer id="footer" class="footer">
     <div class="container">
       <div class="copyright text-center ">
-        <p><span>Portfolio</span> <!-- strong class="px-1 sitename">FolioOne</!--> <span>Awang Hilmi<br></span></p>
+        <p><span>Awang Hilmi -</span> <strong class="px-1 sitename">Software Developer</strong> <!-- span>Software Developer<br></!--></p>
+      </div>
+            <div class="credits">
+        Contact email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=awanghilmi05@gmail.com" target="_blank">awanghilmi05@gmail.com</a>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a href="https://www.tiktok.com/@awanghilmi?_r=1&_t=ZS-949I9twluJF" class="tiktok"><i class="bi bi-tiktok"></i></a>
@@ -87,9 +90,6 @@
         <a href="https://www.facebook.com/share/1CLBqu89pY/" class="facebook"><i class="bi bi-facebook"></i></a>
 
       </div>
-      <!--div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </!--div>
     </div-->
   </footer>
 

@@ -15,7 +15,7 @@
               <h2 data-aos="fade-up" data-aos-delay="300">Creative <span class="typed" data-typed-items="UI/UX Designer, Web Developer, Mobile App Developer"></span></h2>
                 <p data-aos="fade-up" data-aos-delay="400">Experienced in developing mobile applications, web platforms, and IoT solutions. I enjoy creating practical and effective solutions that meet both user needs and business goals.</p>
               <div class="hero-actions" data-aos="fade-up" data-aos-delay="500">
-                <a href="{{ route('portfolio') }}" class="btn btn-primary">View My Work</a>
+                <a href="{{ route('about') }}" class="btn btn-primary">View About Me</a>
                 <a href="https://wa.me/qr/NHFY5B3BHCTVB1" class="btn btn-outline">Get In Touch</a>
               </div>
               <div class="social-links" data-aos="fade-up" data-aos-delay="600">

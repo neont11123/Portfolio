@@ -1,4 +1,4 @@
-<?php $__env->startSection('title', 'Portfolio Details - FolioOne'); ?>
+<?php $__env->startSection('title', 'Portfolio Details - Awang'); ?>
 <?php $__env->startSection('body-class', 'portfolio-details-page'); ?>
 <?php $__env->startSection('content'); ?>
 
@@ -244,7 +244,7 @@
        data-gallery="portfolio-gallery-2">
 
       <img src="<?php echo e(asset('img/portfolio/uniszar.png')); ?>"
-           alt="Portfolio Image"
+           alt="Unisza Team"
            class="img-fluid">
 
     </a>
@@ -256,7 +256,7 @@
        data-gallery="portfolio-gallery-2">
 
       <img src="<?php echo e(asset('img/portfolio/4.png')); ?>"
-           alt="Portfolio Image"
+           alt="Home Page"
            class="img-fluid">
 
     </a>
@@ -268,7 +268,7 @@
        data-gallery="portfolio-gallery-2">
 
       <img src="<?php echo e(asset('img/portfolio/2.png')); ?>"
-           alt="Portfolio Image"
+           alt="BMI page"
            class="img-fluid">
 
     </a>
@@ -280,7 +280,7 @@
        data-gallery="portfolio-gallery-2">
 
       <img src="<?php echo e(asset('img/portfolio/3.png')); ?>"
-           alt="Portfolio Image"
+           alt="Performance monitoring page"
            class="img-fluid">
 
     </a>
