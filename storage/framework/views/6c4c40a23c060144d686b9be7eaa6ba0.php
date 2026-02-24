@@ -87,7 +87,7 @@
                 <img src="<?php echo e(asset('img/portfolio/ud2.png')); ?>" alt="Upload data Page (notification)" class="img-fluid glightbox">
               </div>
               <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/d3.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/d3.png')); ?>"  class="img-fluid glightbox">
               </div>
               <div class="col-3 d-flex justify-content-center align-items-center">
                 <img src="<?php echo e(asset('img/portfolio/ua1.png')); ?>" alt="Update Admin Page" class="img-fluid glightbox">
@@ -298,13 +298,13 @@
                 <img src="<?php echo e(asset('img/portfolio/MQTT.png')); ?>" alt="Flowgorithm" class="img-fluid glightbox">
               </div>
               <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/5.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/5.png')); ?>"  class="img-fluid glightbox">
               </div>
               <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/3.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/3.png')); ?>"  class="img-fluid glightbox">
               </div>
               <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/2.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/2.png')); ?>"  class="img-fluid glightbox">
               </div>
             </div>
           </div>
@@ -374,10 +374,8 @@
           </div>
 
           <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
-            <!-- a href="#" class="btn-view-project">View Live Project</a-->
-            <a href="<?php echo e(url('portfolio-details/' . ($id + 1))); ?>" class="btn-view-project">
-  Next Project <i class="bi bi-arrow-right"></i>
-</a>
+            <a href="<?php echo e(url('portfolio-details/' . ($id - 1))); ?>" class="btn-next-project"><i class="bi bi-arrow-left">  Previous</i></a>
+            <a href="<?php echo e(url('portfolio-details/' . ($id + 1))); ?>" class="btn-view-project">Next Project <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -408,15 +406,35 @@
                 }
               </script>
               <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="<?php echo e(asset('img/portfolio/i2.png')); ?>" alt="Portfolio Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="<?php echo e(asset('img/portfolio/i3.png')); ?>" alt="Portfolio Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="<?php echo e(asset('img/portfolio/i4.png')); ?>" alt="Portfolio Image" class="img-fluid">
-                </div>
+<div class="swiper-slide">
+  <a href="<?php echo e(asset('img/portfolio/i2.png')); ?>"
+     class="glightbox"
+     data-gallery="portfolio-gallery">
+    <img src="<?php echo e(asset('img/portfolio/i2.png')); ?>"
+         alt="Portfolio Image"
+         class="img-fluid">
+  </a>
+</div>
+
+<div class="swiper-slide">
+  <a href="<?php echo e(asset('img/portfolio/i3.png')); ?>"
+     class="glightbox"
+     data-gallery="portfolio-gallery">
+    <img src="<?php echo e(asset('img/portfolio/i3.png')); ?>"
+         alt="Portfolio Image"
+         class="img-fluid">
+  </a>
+</div>
+
+<div class="swiper-slide">
+  <a href="<?php echo e(asset('img/portfolio/i4.png')); ?>"
+     class="glightbox"
+     data-gallery="portfolio-gallery">
+    <img src="<?php echo e(asset('img/portfolio/i4.png')); ?>"
+         alt="Portfolio Image"
+         class="img-fluid">
+  </a>
+</div>
               </div>
               <div class="swiper-button-prev"></div>
               <div class="swiper-button-next"></div>
@@ -429,25 +447,25 @@
                 <img src="<?php echo e(asset('img/portfolio/i5.png')); ?>" alt="Flowgorithm" class="img-fluid glightbox">
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/i6.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i6.png')); ?>"  class="img-fluid glightbox">
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/i7.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i7.png')); ?>"  class="img-fluid glightbox">
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/i8.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i8.png')); ?>"  class="img-fluid glightbox">
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/i9.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i9.png')); ?>"  class="img-fluid glightbox">
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/i10.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i10.png')); ?>"  class="img-fluid glightbox">
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/i11.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i11.png')); ?>"  class="img-fluid glightbox">
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/i12.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/i12.png')); ?>"  class="img-fluid glightbox">
                 </div>
             </div>
         </div>
@@ -513,10 +531,8 @@
           </div>
 
           <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
-            <!-- a href="#" class="btn-view-project">View Live Project</a-->
-            <a href="<?php echo e(url('portfolio-details/' . ($id + 1))); ?>" class="btn-view-project">
-  Next Project <i class="bi bi-arrow-right"></i>
-</a>
+            <a href="<?php echo e(url('portfolio-details/' . ($id - 1))); ?>" class="btn-next-project"><i class="bi bi-arrow-left"></i>  Previous</a>
+            <a href="<?php echo e(url('portfolio-details/' . ($id + 1))); ?>" class="btn-view-project">Next Project <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -546,23 +562,37 @@
                   "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }
                 }
               </script>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="<?php echo e(asset('img/portfolio/posters.png')); ?>" alt="Portfolio Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="<?php echo e(asset('img/portfolio/gold2.png')); ?>" alt="Portfolio Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="<?php echo e(asset('img/portfolio/a1.png')); ?>" alt="Portfolio Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="<?php echo e(asset('img/portfolio/a2.png')); ?>" alt="Portfolio Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="<?php echo e(asset('img/portfolio/a3.png')); ?>" alt="Portfolio Image" class="img-fluid">
-                </div>
-              </div>
+<div class="swiper-wrapper">
+  <div class="swiper-slide">
+    <a href="<?php echo e(asset('img/portfolio/posters.png')); ?>" class="glightbox" data-gallery="portfolio-gallery">
+      <img src="<?php echo e(asset('img/portfolio/posters.png')); ?>" alt="Portfolio Image" class="img-fluid">
+    </a>
+  </div>
+
+  <div class="swiper-slide">
+    <a href="<?php echo e(asset('img/portfolio/gold2.png')); ?>" class="glightbox" data-gallery="portfolio-gallery">
+      <img src="<?php echo e(asset('img/portfolio/gold2.png')); ?>" alt="Portfolio Image" class="img-fluid">
+    </a>
+  </div>
+
+  <div class="swiper-slide">
+    <a href="<?php echo e(asset('img/portfolio/a1.png')); ?>" class="glightbox" data-gallery="portfolio-gallery">
+      <img src="<?php echo e(asset('img/portfolio/a1.png')); ?>" alt="Portfolio Image" class="img-fluid">
+    </a>
+  </div>
+
+  <div class="swiper-slide">
+    <a href="<?php echo e(asset('img/portfolio/a2.png')); ?>" class="glightbox" data-gallery="portfolio-gallery">
+      <img src="<?php echo e(asset('img/portfolio/a2.png')); ?>" alt="Portfolio Image" class="img-fluid">
+    </a>
+  </div>
+
+  <div class="swiper-slide">
+    <a href="<?php echo e(asset('img/portfolio/a3.png')); ?>" class="glightbox" data-gallery="portfolio-gallery">
+      <img src="<?php echo e(asset('img/portfolio/a3.png')); ?>" alt="Portfolio Image" class="img-fluid">
+    </a>
+  </div>
+</div>
               <div class="swiper-button-prev"></div>
               <div class="swiper-button-next"></div>
             </div>
@@ -577,13 +607,13 @@
                 <img src="<?php echo e(asset('img/portfolio/gold.png')); ?>" alt="Gold Award Final Year Project" class="img-fluid glightbox">
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/a1.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/a1.png')); ?>"  class="img-fluid glightbox">
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/a2.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/a2.png')); ?>"  class="img-fluid glightbox">
                 </div>
                 <div class="col-3 d-flex justify-content-center align-items-center">
-                <img src="<?php echo e(asset('img/portfolio/a3.png')); ?>" alt="Gallery Image" class="img-fluid glightbox">
+                <img src="<?php echo e(asset('img/portfolio/a3.png')); ?>"  class="img-fluid glightbox">
                 </div>
             </div>
         </div>
@@ -649,10 +679,7 @@
           </div>
 
           <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
-            <!-- a href="#" class="btn-view-project">View Live Project</a-->
-            <a href="<?php echo e(url('portfolio-details/1')); ?>" class="btn-view-project">
-  Next Project <i class="bi bi-arrow-right"></i>
-</a>
+            <a href="<?php echo e(url('portfolio-details/' . ($id - 1))); ?>" class="btn-next-project"><i class="bi bi-arrow-left"></i> Previous</a>
           </div>
         </div>
       </div>

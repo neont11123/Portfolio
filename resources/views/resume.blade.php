@@ -131,7 +131,7 @@
               <div class="resume-content">
                 <article class="experience-item">
                   <h4>IT Assistant</h4>
-                  <h5>Oct 2025- Current</h5>
+                  <h5>Oct 2025 - Current</h5>
                   <p class="company"><em>Senai-Desaru Expressway Berhad</em></p>
                   <ul>
                     <li>Developed a full-stack analytics and dashboard system using FastAPI and Ionic Angular, delivering daily operational reports and executive reports for management to support data-driven decision-making.</li>
